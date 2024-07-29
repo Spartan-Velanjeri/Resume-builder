@@ -1,0 +1,112 @@
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-right: 1px solid #ddd;
+}
+
+.sidebar-item {
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+}
+
+.canvas {
+  flex-grow: 1;
+  position: relative;
+  background-color: #fafafa;
+  border-left: 1px solid #ddd;
+  margin: 0; /* Ensure no margin */
+  padding: 0; /* Ensure no padding */
+}
+
+.canvas > div {
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 10px;
+  cursor: move;
+  position: absolute;
+}
+
+.canvas textarea {
+  width: 100%;
+  height: 100%;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.canvas button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.draggable-image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgray;
+  padding: 5px;
+  background-color: white;
+}
+
+.draggable-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.draggable-image button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.draggable-image input[type="file"] {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+  width: 100%;
+  height: 30%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arial:wght@400;700&family=Georgia:wght@400;700&family=Oswald:wght@400;700&family=Roboto:wght@400;700&family=Times+New+Roman:wght@400;700&family=Verdana:wght@400;700&display=swap');
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Add any other global styles you need here */

@@ -20,3 +20,7 @@ Helping people build their portfolio and deploy them quickly in Github Pages
 3. One divider line to divide the page into different elements.
 4. Add icons section to add links wrt Github, Medium, Linkedin, Instagram, Behance and more. Use existing react-icons for the same.
 
+## How to Run
+
+1. TO install the node modules, use npm install
+2. To run the react app, use npm start
